@@ -1,0 +1,30 @@
+<br/><br/><br/>
+<h2 align="center" style="color:brown">Registeration Form</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4">
+            <form ng-submit="registerCtrl.doRegister()">
+                <div class="form-group">
+                    <label for="exampleName">Name</label>
+                    <input type="text" class="form-control" id="exampleName" placeholder="Enter Name" ng-model="registerCtrl.text" required>
+                    </div>
+                    <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" ng-model="registerCtrl.email" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="registerCtrl.password" required>
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword2">ConfirmPassword</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password" ng-model="registerCtrl.password" required>
+                      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit" class="btn btn-primary">Register</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset" class="btn btn-secondary">Reset</button>
+              </form>
+        </div>
+    </div>
+</div>
