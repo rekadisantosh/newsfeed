@@ -1,7 +1,7 @@
 function routes($stateProvider) {
     $stateProvider
         .state('login', {
-            url: '/',
+            url: '/login',
             template: require('./login.html'),
             controller: 'LoginController',
             controllerAs: 'loginCtrl',
